@@ -3,7 +3,7 @@ import { Props } from "./types";
 
 export const Container = styled.View<Props>`
   flex-direction: row;
-  width: ${({ amount }) => amount * 10};
+  width: ${({ amount }) => amount * 10}px;
   justify-content: space-between;
 `;
 
